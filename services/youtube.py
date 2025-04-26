@@ -71,7 +71,7 @@ class YouTubeService(BaseService):
                 raise ValueError("Youtube Video size is too large")
 
             options = self._get_video_options()
-            options["format"] = f"{best_format["format_id"]}+bestaudio[ext=m4a]/best[ext=mp4]/best"
+            options["format"] = f"{best_format['format_id']}+bestaudio[ext=m4a]/best[ext=mp4]/best"
             with yt_dlp.YoutubeDL(options) as ydl:
                 loop = asyncio.get_event_loop()
 
