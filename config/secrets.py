@@ -3,7 +3,7 @@ import os
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7834633279:AAFmabhepIVxeT_XQcYYsjOtFWoJizEe6wc")
 
 SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 SPOTIFY_SECRET = os.getenv("SPOTIFY_SECRET")
