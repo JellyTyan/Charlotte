@@ -1,0 +1,14 @@
+# Exported from Render on 2025-04-26T04:34:09Z
+services:
+- type: web
+  name: Charlotte
+  runtime: python
+  repo: https://github.com/angel-arciniega/Charlotte
+  plan: free
+  envVars:
+  - key: ADMIN_ID
+    sync: false
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: python main.py
+version: "1"
