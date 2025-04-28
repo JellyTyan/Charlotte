@@ -12,5 +12,5 @@ aiohttp~=3.11.13
 beautifulsoup4~=4.13.4
 fake-useragent==2.2.0
 Pillow==11.2.1
-Babel==2.13.0
+Babel==2.17.0
 PyTTSave==1.1.0
